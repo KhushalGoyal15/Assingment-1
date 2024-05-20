@@ -1,0 +1,23 @@
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    font-weight: 700;
+    line-height: 3;
+    letter-spacing: 2px;
+    border: 2px solid red;
+    width: 45px;
+    /* text-overflow:ellipsis;
+    overflow: hidden; */
+    word-break: break-all;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h2{
+    text-transform: capitalize;
+    /* text-transform: lowercase; */
+    text-decoration: underline;
+    text-decoration-color:bisque ;
+     text-decoration-style:dashed ;
+}

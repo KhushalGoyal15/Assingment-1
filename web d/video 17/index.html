@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        /* div{
+            background-color: green;
+        } */
+        .red{
+            background-color: aqua;
+        }
+        #green{
+            background-color: green;
+        }
+        /* child selector = if p is directly inside div*/ 
+        div > p{
+            background-color: black;
+            color: red;
+        }
+        /* descendent selector if p in not directly inside div*/
+        div p{
+            background-color: blue;
+        }
+
+        /* universal selector */
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* pseudo selector */
+        a:visited{
+            color: red;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: blue;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        p:first-child{
+            background-color: brown;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="red">
+        i am 
+        <article>
+
+            <p>hii heloo</p>
+
+        </article>
+    </div>
+    <div id="green">
+        i am
+    </div>
+    <a href="https://www.google.com">go to google</a>
+    <a href="https://www.instagram.com">instagram</a>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: red;
+        }
+
+        /* @media only screen and (orientation:portrait) */
+        @media only screen and (max-width: 455px)
+        {
+            body{
+
+                background-color: blue;
+            }
+            .boxes{
+                flex-direction: column;
+            }
+        }
+        
+        /* @media not|only mediatype and (expressions){
+            CSS-code;
+        } */
+        .boxes{
+            display: flex;
+        }
+        .box{
+            width: 344px;
+            min-height: 50vh;
+            /* height: 344px; */
+            margin: 3px;
+            padding: 3px;
+            background-color: steelblue;
+        }
+        .box2{
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        i m a red body guy!!
+    </div>
+    <div class="boxes">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat cum rem quidem, ullam consequuntur veritatis om? Totam laboriosam facilis id asperiores magnam ex, dolores veritatis provident nobis quaerat voluptate labore natus molestiae quisquam aut </div>
+        <div class="box box2"><a href="k">google</a></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

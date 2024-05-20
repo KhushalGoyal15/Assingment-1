@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        .container{
+            border: 2px solid white;
+            display: flex;
+            /* flex-direction: row-reverse; */
+            justify-content: space-around;
+            align-items: center;
+            /* flex-wrap: wrap; */
+            /* flex-flow: row wrap-reverse; */
+            gap:14px;
+            /* border: 2px solid rgb(210, 207, 207);    */
+        }
+        .item{
+            text-transform: capitalize;
+            
+            
+        }
+        .item ul{
+            /* border: 2px solid rgb(210, 207, 207); */
+            display: flex;
+            /* margin-right: 270px; */
+            gap: 24px;
+
+            
+        }
+        .item ul li{
+            list-style: none;
+        }
+        </style>
+</head>
+<body>
+    <nav class="container">
+        <div class="item itme">UltraEdit</div>
+       <div class="item">
+        <ul>
+            <li>product<i class="fa-solid fa-angle-down"></i></li>
+            <li>concern<i class="fa-solid fa-angle-down"></i></li>
+            <li>talks<i class="fa-solid fa-angle-down"></i></li>
+            <li>about us<i class="fa-solid fa-angle-down"></i></li>
+        </ul>
+       </div>
+    </nav>
+</body>
+</html>

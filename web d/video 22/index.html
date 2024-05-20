@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html
+        {
+            font-size: 12px;
+        }
+        .box{
+            /* padding: 10px;; */
+            border: 2px solid;
+            width: 90vw;
+            height: 50vh;
+            font-size: xx-large;
+            /* min-height: 50%; */
+            margin: auto;
+            background-color: aquamarine;
+            box-sizing: border-box;
+
+            /* text-overflow: ellipsis;
+            overflow: hidden; */
+        } 
+        .container{
+            border: 2px solid;
+            width: 90vw;
+            /* height: 80vh; */
+            min-height: 80vh; /*the min height will be 80vh but max height will be acc to the text similarly max-height is also there*/
+            margin: 23px auto;
+            background-color: aquamarine;
+            box-sizing: border-box;
+            /* font-size: 18px; */
+            
+
+        }
+        .container p{
+            /* font-size: 2em; */
+            font-size: 2rem;
+        }
+        .itscont{
+            width: 40vmin; /*vw for comp = vmax*/
+             /*vh for comp = vmin*/
+             /*vw for mobile = vmin*/
+             /*vh for mobile = vmax*/
+            width: 40vmax;
+            background-color: black;
+            color: red;
+            font-size: 2em;
+            margin: auto;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">its a box</div>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic expedita minus ut officiis ipsam modi sequi quis, asperiores odit tempora aperiam iste? Consequatur porro debitis recusandae aliquam corporis quidem tempore ipsum ea ullam quia?
+        </p>
+    </div>
+    <div class="itscont">
+        its a another container
+    </div>
+ 
+</body>
+</html>

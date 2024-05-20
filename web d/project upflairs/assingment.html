@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS DISPLAY PROPERTY</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            display: inline-block;
+            margin: -2px;
+            width: 130px;
+            padding: 35px;
+            background-color: black;
+            /* display: flex; */
+            /* display: inline-flex; */
+            /* display: grid; */
+            justify-content: center;
+            color: aliceblue;
+            font-size:larger;
+           
+        }
+        .box:hover{
+            background-color: darkblue;
+        }
+        #e{
+            background-color: black;
+            /* border-radius: 4lh; */
+            border-color: black;
+            color: aliceblue;
+            margin: -22px;
+            font-size: large;
+        
+            /* display: grid; */
+        }
+        #e:active{
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        i am abox
+    </div>
+    <div class="box">
+       <select name="service" id="e">
+        <option value="service">service</option>
+        <option value="service">Web Devlopment</option>
+        <option value="service">website</option>
+        <option value="service">work hard</option>
+        <option value="service">info</option>
+       </select>
+    </div>
+    <span class="box">
+        i m a boy
+    </span>
+</body>
+</html>
